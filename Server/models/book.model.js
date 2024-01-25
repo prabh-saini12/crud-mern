@@ -14,7 +14,7 @@ const BookSchema = mongoose.Schema({
         require: true
     },
     bookPublished: {
-        type: Date,
+        type: String,
         require: true
     },
     status: {
